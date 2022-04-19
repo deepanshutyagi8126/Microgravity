@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gaming Console</title>
+    <link href="images/fav.png" rel="icon" type="icon/image">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <a href="javascript:void(0)" data-toggle="modal" data-target="#query" class="EnquireNow"> Enquire Now</a>
+    <a id="scroll"></a>
+    <header class="headerFixed">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/Logo.png" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                        aria-controls="menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About
+                                </a>
+                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="about-us.html">About Microgravity</a>
+                                    <a class="dropdown-item" href="team-new.html">Team</a>
+                                    <a class="dropdown-item" href="events.html">Events</a>
+                                    <a class="dropdown-item" href="press.html">Press</a>
+                                    <a class="dropdown-item" href="safety.html">Safety</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="experience.html">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tournaments.html">Play</a>
+                            </li>
+                     
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="shop-categories.html">Category</a>
+                                    <div class="hoverDrop">
+                                        <a class="dropdown-item " >Products <span style="margin-left: 5px;"><i class="fa fa-caret-down"></i></span></a>
+                                        <div class="hoverShow">
+                                          <a href="all-products.html">All</a>
+                                          <a href="refurbished.html">Refurbished</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="parties-events.html">Party</a>
+                            </li>
+                            <li class="nav-item">
+                                   <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a class="nav-link" href="recharg-list.html">Recharge</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="business.html">Business</a>
+                            </li>
+                        </ul>
+                        <div class="menuright">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);" id="Search">
+                                        <span><img src="images/Search.svg" /></span>
+                                    </a>
+                                    <div class="SearchBar">
+                                        <input type="search" placeholder="Search here">
+                                        <button><img src="images/Search.svg" /></button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="cart.html">
+                                        <img src="images/Bag.svg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" data-toggle="modal" data-target="#RegisterModal">
+                                        <img src="images/User.svg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="images/call.svg" class="call" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="BreadcrumbArea marginTops">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Shop</a></li>
+                        <li><a href="shop-categories.html">Categories</a></li>
+                        <li class="active"><a href="javascript:void(0);">Gaming Consoles</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row paddingTop paddingBottom">
+                <div class="col-sm-3">
+                    <div class="filterall">
+                        <h2 class="Filter">Filter</h2>
+                        <div class="scrollbar scrollbar22" id="style-4" style="height: 745px;">
+                            <div class="force-overflow">
+                                <div class="filterDet">
+                                    <h2 class="rat">Customer Ratings</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="rating1" name="Ratings" checked>
+                                            <label for="rating1">4 & Above</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="rating2" name="Ratings">
+                                            <label for="rating2">3 & Above</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="rating3" name="Ratings">
+                                            <label for="rating3">2 & Above</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="rating4" name="Ratings">
+                                            <label for="rating4">1 & Above</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="filterDet">
+                                    <h2 class="rat">Offers</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="Offers1" name="Offers" checked>
+                                            <label for="Offers1">Exchange</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Offers2" name="Offers">
+                                            <label for="Offers2">No Cost EMI</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Offers3" name="Offers">
+                                            <label for="Offers3">Warranty</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Offers4" name="Offers">
+                                            <label for="Offers4">Special Price</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="filterDet">
+                                    <h2 class="rat">Discounts</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="discount1" name="Discounts" checked>
+                                            <label for="discount1">50% or More</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="discount2" name="Discounts">
+                                            <label for="discount2">40% or More</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="discount3" name="Discounts">
+                                            <label for="discount3">30% or More</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="discount4" name="Discounts">
+                                            <label for="discount4">20% or More</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="filterDet">
+                                    <h2 class="rat">Brands</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="brand1" name="Brands" checked>
+                                            <label for="brand1">Cloudtail India</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="brand2" name="Brands">
+                                            <label for="brand2">Micowave</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="brand3" name="Brands">
+                                            <label for="brand3">Microsoft</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="brand4" name="Brands">
+                                            <label for="brand4">Sony</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="filterDet">
+                                    <h2 class="rat">Price</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="Price1" name="Price" checked>
+                                            <label for="Price1">1500 - 2000</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Price2" name="Price">
+                                            <label for="Price2">2000 - 2500</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Price3" name="Price">
+                                            <label for="Price3">2500 - 3000</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Price4" name="Price">
+                                            <label for="Price4">3000 or above</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="filterDet">
+                                    <h2 class="rat">Miscellaneous</h2>
+                                    <ul class="filterUl">
+                                        <li>
+                                            <input type="radio" id="Miscellaneous1" name="Miscellaneous" checked>
+                                            <label for="Miscellaneous1">Today's Deal</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Miscellaneous2" name="Miscellaneous">
+                                            <label for="Miscellaneous2">Pay on Delivery</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="Miscellaneous3" name="Miscellaneous">
+                                            <label for="Miscellaneous3">Exclude Out of Stock</label>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="trendFlex trendFlex2">
+                        <div class="trendLeft">
+                            <h2 class="main">Gaming <span class="colorYellow">Console</span></h2>
+                        </div>
+                        <div class="trendRight">
+                            <select class="selected formControl2">
+                                <option>Sort By</option>
+                                <option>Popularity</option>
+                                <option>Price - Low to High</option>
+                                <option>Price - High to Low</option>
+                                <option>Newest</option>
+                                <option>A - Z</option>
+                                <option>Z - A</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="TrendingProj">
+                        <div class="trendingTabs">
+                            <ul class="nav nav-tabs" style="padding-bottom: 18px">
+                                <li><a data-toggle="tab" class="active" href="#all">All</a></li>
+                                <li><a data-toggle="tab" href="#PS4">PS4</a></li>
+                                <li><a data-toggle="tab" href="#PS3">PS3</a></li>
+                                <li><a data-toggle="tab" href="#XboxOne">Xbox One</a></li>
+                                <li><a data-toggle="tab" href="#Xbox360">Xbox 360</a></li>
+                            </ul>
+                        </div>
+                        <div class="scrollbar scrollbar22" id="style-4" style="height: 680px;">
+                            <div class="force-overflow">
+                        <div class="tab-content">
+                            <div id="all" class="tab-pane fade in show active">
+                                <div class="alltrending">
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="PS4" class="tab-pane fade in">
+                                <div class="alltrending">
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                        <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="PS3" class="tab-pane fade">
+                                <div class="alltrending">
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="XboxOne" class="tab-pane fade">
+                                <div class="alltrending">
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Xbox360" class="tab-pane fade">
+                                <div class="alltrending">
+                                    <div class="row">
+
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="trendingbox">
+                                                <div class="trendingImg">
+                                                    <span class="discount">10% Off</span>
+                                                    <img src="images/trending.svg" alt="trending">
+                                                </div>
+                                                <div class="trendingCon">
+                                                    <div class="trendingLeft">
+                                                       <a href="product-details.html">
+                                                            <h2 class="main">Hamma JoyStic
+                                                            </h2>
+                                                        </a>
+                                                        <p class="main">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit.
+                                                            Aenean euismod
+                                                            bibendum laoreet. Proin gravida dolor sit amet lacus
+                                                            accumsan et
+                                                            viverra
+                                                            justo commodo. Proin sodales pulvinar sic tempor. Sociis
+                                                            natoque
+                                                            penatibus
+                                                            et magnis dis parturient montes, nascetur ridiculus mus. Nam
+                                                            fermentum,
+                                                            nulla luctus pharetra vulputate, felis tellus mollis orci,
+                                                            sed
+                                                            rhoncus
+                                                            pronin sapien nunc accuan eget.</p>
+                                                       <h3><b>₹ </b>  2250 <span><del>2500</del></span></h3>
+                                                    </div>
+                                                    <div class="trendingRight">
+                                                        <h2 class="main">4.0 <span><img src="images/star.svg"
+                                                                    alt="star"></span>
+                                                        </h2>
+                                                        <p class="main"><a href="javascript:void(0)">(78)</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    </div>
+                        <div class="paginations" style="padding-top: 30px;">
+                            <div class="pageLeft">
+                                <h2 class="main">Page 1 of 1047</h2>
+                            </div>
+                            <div class="paginationRight">
+                                <a href="javascipt:void(0)" class="btns">Previous</a>
+                                <ul>
+                                    <li><a href="javascript:void(0)" class="active">1</a></li>
+                                    <li><a href="javascript:void(0)">2</a></li>
+                                    <li><a href="javascript:void(0)">3</a></li>
+                                    <li><a href="javascript:void(0)">4</a></li>
+                                    <li><a href="javascript:void(0)">5</a></li>
+                                    <li><a href="javascript:void(0)">6</a></li>
+                                    <li><a href="javascript:void(0)">7</a></li>
+                                    <li><a href="javascript:void(0)">8</a></li>
+                                </ul>
+                                <a href="javascipt:void(0)" class="btns">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    <footer>
+        <div class="Footer">
+            <div class="container">
+                <div class="FooterLogo">
+                    <img src="images/Logo.png" />
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="Foots">
+                            <h3>Microgravity Ventures Private Limited</h3>
+                            <address>
+                                Ist Floor, JMD Empire Square, M G Road, Gurgaon, Haryana, 122002 <br />
+                                <a href="javascript:void(0);">queries@microgravity.co.in</a>
+                            </address>
+                            <div class="footermap">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14008.493983013297!2d77.3668853!3d28.6260606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1629280930958!5m2!1sen!2sin"
+                                     style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="Foots">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="javascript:void(0);">Experience</a></li>
+                                <li><a href="javascript:void(0);">Play</a></li>
+                                <li><a href="javascript:void(0);">Shop</a></li>
+                                <li><a href="javascript:void(0);">Parties & Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            <div class="col-sm-3">
+                        <div class="Foots">
+                            <h3>About Us</h3>
+                            <ul>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="javascript:void(0);">Our Journey</a></li>
+                                <li><a href="javascript:void(0);">The Team</a></li>
+                                <li><a href="javascript:void(0);">Cancellation & Refund Policy</a></li>
+                                <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="Foots">
+                            <h3>Follow Us</h3>
+                            <ol>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="Foots">
+                            <h3>Subscribe Now</h3>
+                            <div class="form-group Subscribe">
+                                <input type="text" class="form-control" placeholder="Email ID" />
+                                <button class="sub">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footerImages">
+                <img src="images/footer.png" />
+            </div>
+        </div>
+    </footer>
+    <div class="modal BigModal" id="query">
+        <div class="modal-dialog" style="max-width: 575px;">
+            <div class="modal-content">
+                <div class="RegisterForm">
+                    <div class="LoginForm" style="max-width: 100%;">
+                        <div class="RegisterFormHead">
+                            <h4>ENQUIRE NOW</h4>
+                      
+                            <button type="button" class="Close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="RegisterFormBody">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" />
+                                 
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Mobile" />
+                             
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Email Id" />
+                             
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Enter City" />
+                             
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="Message" ></textarea>
+                             
+                                </div>
+                                <div class="form-group">
+                                    <button class="Submit" style="    margin: 45px 0px 0px 0px
+                                  ">Submit</button>
+                               
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWgeT6Ouj8ON-8jnABBZ-sNLfVqjdQZg4&callback=initMap&libraries=&v=weekly" async></script>
+
+</body>
+
+</html>

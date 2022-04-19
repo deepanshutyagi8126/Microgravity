@@ -1,0 +1,1149 @@
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl{ max-width: 1400px; } 
+}  
+@media screen and (max-width: 1600px) and (min-width: 1450px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl{ max-width: 1300px; } 
+}  
+@media screen and (max-width: 1450px) and (min-width: 1300px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl{ max-width: 1225px; } 
+}   
+@media(max-width:1300px){
+    .padding90{ padding-top: 20px; }
+}
+@media(max-width:1199px){
+    .signUpBtns {
+        right: 125px;
+    }
+    .virtualInner h2.main {
+        font-size: 40px;
+    }
+    .virtualInner h4 {
+        font-size: 24px;
+    }
+    .virtualInner h5 {
+        font-size: 32px;
+    }
+    .virtualInner p.main{
+        font-size: 15px;
+    }
+    .virtualAbsence {
+        padding: 55px 0px;
+    }
+    .TournamentBox .TournamentLeft ul li a {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    .TournamentBox .TournamentLeft {
+        padding: 10px;
+    }
+    .ChampionBox figcaption h3 {
+        font-size: 14px;
+    }
+    .BrandBox ul li figure {
+        min-height: 175px;
+    }
+    header .navbar-light .navbar-toggler {
+        color: #feb700;
+        border-color: #feb700;
+        background: #feb700;
+    }
+    header{
+        background: #000;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0px 40px;
+    }
+    .partiesBox.teamBox .trendingLeft h2 {
+        font-size: 14px !important;
+}
+.partiesBox .trendingLeft p{
+    font-size: 12px;
+}
+.trendingbox.teamBox{
+    padding-left: 0;
+}
+.BreadcrumbArea ul li:last-child{
+    margin-right: 0;
+}
+.BreadcrumbArea ul {
+    padding: 15px 25px;
+}
+.BreadcrumbArea ul li a {
+    font-size: 14px;
+}
+.BreadcrumbArea ul li {
+    margin: 0 25px 0 0;
+}
+.tournamentTabs {
+     padding-left: 0px; 
+}
+.trendingTour .trendingLeft h2{
+    font-size: 15px !important;
+}
+.trendingTour .trendingLeft ul li {
+    line-height: 22px;
+}
+.trendingTour .trendingLeft ul li span {
+    margin-right: 5px;
+}
+.timePlayer {
+    width: 65%;
+}
+#Consent-Agreement .modal-dialog .modal-content{
+    padding: 25px 30px;
+}
+form.addWallet .col-sm-5 {
+    flex: 0 0 55.666667%;
+    max-width: 55.666667%;
+}
+.paginationRight a.btns {
+    font-size: 12px;
+    width: 85px;
+}
+.row.paddingTop.paddingBottom .col-sm-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.row.paddingTop.paddingBottom .col-sm-9 {
+    flex: 0 0 63%;
+    max-width: 63%;
+}
+.TrendingProj  .alltrending .col-sm-4{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.paginations{
+    display: none;
+}
+.cartDes {
+    max-width: 475px;
+    margin-right: 20px;
+}
+#Experience .col-sm-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+#Experience .col-sm-3 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-bottom: 30px;
+}
+.container.wishlisted .col-sm-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+#Stories .modal-dialog {
+    max-width: 98%;
+}
+.brandDet.brandflat h2{
+    font-size: 15px;
+}
+.tournamentDet img {
+    height: 300px;
+}
+.coupon{
+    width: 100%;
+}
+.alltrending.alltrendingnew {
+    padding-left: 0px;
+}
+.createTour.teamTour .productBtns li a {
+    width: 80px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.teamInner .col-sm-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.walletForm {
+    max-width: 100%;
+}
+.OrderArea .OrderBox .OrderColor.Product {
+    padding: 25px 25px;
+    display: block;
+}
+.OrderArea .OrderBox .OrderColor.StatusBox {
+    padding: 25px 25px;
+}
+.OrderArea .OrderBox .OrderColor{
+    padding: 25px 25px;   
+}
+}
+@media(max-width:991px){
+    .signUpBtns a.btns {
+        width: 250px;
+    }
+    .virtualInner h2.main {
+        font-size: 35px;
+    }
+    .virtualInner h4 {
+        font-size: 20px;
+    }
+    .virtualInner h5 {
+        font-size: 26px;
+    }
+    .TournamentBox .col-sm-3{
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+    .TournamentBox .col-sm-9{
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+    .TournamentBox .col-sm-9 .row .col-sm-4{
+        flex: 0 0 50%;
+        max-width: 50%; 
+    }
+    .PartiesArea {
+        padding: 0px 0;
+    }
+    .PartiesArea .PartiesHead p {
+        padding: 0px 40px;
+    }
+    .TrustArea .TrustHead ul.nav-tabs .nav-item .nav-link {
+        font-size: 13px;
+    }
+    .BrandBox ul li {
+        width: 25%;
+    }
+   .QueryArea .col-sm-8.offset-sm-2 {
+        flex: 0 0 80.666667%;
+        max-width: 80.666667%;
+        margin: 0 auto;
+    }
+    .Footer .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .col-sm-3.footLast {
+        flex: 0 0 45%;
+        max-width: 45%;
+        margin-top: 25px;
+    }
+    .aboutEpicIn p {
+        padding: 20px 10px 45px;
+    }
+    .EpicSlider img.owl-lazy {
+        height: 450px;
+        object-fit: cover;
+    }
+    .epicInner {
+        padding: 35px;
+    }
+    .owl-nav .owl-prev, .owl-nav .owl-next{
+        display: none;
+    }
+    .trendingTour.trendingTournew .col-sm-3{
+        flex: 0 0 33%;
+    max-width: 33%;
+    }
+    .timePlayer {
+        width: 100%;
+    }
+    .maxPlayer.form-group{
+        max-width: 100%;
+    }
+    input.form-control.formControl.colorDate {
+        max-width: 100%;
+    }
+    ul.players {
+        margin-top: 15px;
+    }
+    .maxPlayer2 .maxPlayer.form-group{
+        margin-bottom: 0;
+    }
+  .aboutPlayer.marginZero{
+        margin-bottom: 30px !important;
+    }
+    .paginationRight a.btns {
+        font-size: 12px;
+        width: 85px;
+    }
+    .tournamentTabs.tournamentTabs2 .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .blogDet .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .businessCon .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .businessCon .col-sm-6:nth-child(2){
+        margin-top: 50px;
+    }
+    .applicationHead ul li {
+        list-style: none;
+        flex: 0 0 50%;
+        padding-top: 50px;
+    }
+    .protectiveIn .col-sm-2{
+        display: none;
+    }
+    .protectiveIn  .col-sm-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .cartDetails.cartDetailsnew .cartDes {
+        max-width: 290px;
+    }
+    .cartDes {
+        max-width: 300px;
+    }
+    .container.wishlisted .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .productDet .col-md-6,
+    .productDet .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .detailsRight{
+        padding-left: 0;
+        padding-top: 45px;
+    }
+    .singulartyTabs.myAccoutInTab .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .singulartyTabs.myAccoutInTab .col-sm-6  form.walletForm.shootForm .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .AddressBody .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .orderPlaced {
+         width: 100%;
+    }
+    .partcipantInner .productImg img {
+        width: 65px;
+        height: 65px;
+    }
+    .partcipantInner .productImg {
+        height: 130px;
+        width: 130px;
+    }
+    .partcipantInner p.head {
+        font-size: 16px;
+    }
+    .aboutPlayer p{
+        font-size: 14px;
+    }
+    .Anncoment.AnncomentBlack{
+        margin-right: 0;
+    }
+    .TrustArea .TrustHead ul.nav-tabs .nav-item .nav-link {
+        padding: 12px 0;
+    }
+    .partiesEvent .col-sm-3 {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .alltrending.alltrendingnew .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .createForm.socialForm .col-sm-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .trendingTour.OrganisedTour .col-sm-3 {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .createForm.teamForm .col-sm-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tourAcc .col-sm-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tourAcc .col-sm-8 .col-sm-6{
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .footerImages{
+        display: none;
+    }
+    .Footer {
+        padding-bottom: 50px;
+    }
+    .Footer .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .OrderArea .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .OrderArea .OrderBox .OrderColor.Price {
+        padding: 25px;
+    }
+    .totalQty{
+        display: block;
+    }
+    .OrderArea .OrderBox .OrderColor.Product figcaption h6 {
+        margin: 0 0 15px 0;
+    }
+    .allStatus .StatusLeft {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .StatusLeft ul li {
+        margin: 0 0 22px 0;
+    }
+    .StatusRight ul li:first-child{
+        margin-left: 0;
+    }
+    .OrderArea .OrderBox .OrderColor.Price h6 span,
+    .OrderArea .OrderBox .OrderColor.Price p span{
+        min-width: 180px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox{
+        display: block;
+    }
+    .StatusRight {
+        margin-top: 25px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a span {
+        padding: 10px 40px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li:first-child{
+        margin-left: 0;
+    }
+}
+    @media(max-width:767px){
+        .TournamentBox .col-sm-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .TournamentBox .col-sm-9 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-top: 45px;
+        }
+        .ecommerceImg img {
+            height: 55vh;
+            object-fit: cover;
+        }
+        .QueryArea .col-sm-8.offset-sm-2 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .experienceDet.TournamentBox {
+            padding: 50px 0px 15px;
+        }
+        .trnedingHeading{
+            display: block;
+        }
+        .trnedingHeading h2{
+            margin-bottom: 20px;
+        }
+        .trendingTour.trendingTournew .col-sm-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        #Consent-Agreement .modal-dialog {
+            max-width: 100%;
+        }
+        .form-group.Proceeded.Proceeded2 a{
+            width: 300px;
+            margin: 0 auto;
+        }
+        form.addWallet .col-sm-5 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .row.paddingTop.paddingBottom .col-sm-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .row.paddingTop.paddingBottom .col-sm-9 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .TrendingProj .alltrending .col-sm-4 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .trendFlex.trendFlex2{
+            display: block;
+        }
+        .trendFlex.trendFlex2 h2{
+            margin-bottom: 20px;
+        }
+        .tournamentDet img {
+            height: 300px;
+        }
+        .singulartyTabs ul li a {
+            font-size: 16px;
+        }
+        .singulartyTabs ul li {
+            margin-right: 30px;
+        }
+        .tournamentPara p {
+            text-align: justify;
+        }
+        .blogDet .col-sm-4 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .businessCon {
+            padding: 50px 0px 60px;
+        }
+        .contentBus p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .microBusiness {
+            padding: 75px 0px;
+        }
+        .bussinessIn p.main {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .cartDetails ul li{
+            display: block;
+        }
+        .cartDetails.cartDetailsnew .cartDes,
+        .cartDes {
+            max-width: 100%;
+            margin: 25px 0px;
+        }
+        .cartImg {
+            text-align: center;
+        }
+        .mapDetails{
+            padding: 0;
+            margin-top: 45px;
+        }
+        .contactIcons ul li:first-child{
+            margin-left: 0;
+        }
+        .information h2.main {
+            margin-top: 40px;
+        }
+        .container.wishlisted .col-sm-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .createForm {
+            margin-left: 0px;
+        }
+        #myCarousel .col-sm-9 {
+            width: 75%;
+        }
+        #myCarousel .col-sm-3 {
+            width: 25%;
+        }
+        .detailsRight {
+            padding-left: 0;
+            padding-top: 75px;
+        }
+        .partcipantDet .col-sm-3 {
+            flex: 0 0 33%;
+            max-width: 33%;
+        }
+        .TrustArea.overviewTrust .TrustHead ul.nav-tabs .nav-item {
+            width: 100%;
+        }
+        .overviewCont h2.main {
+            font-size: 16px;
+        }
+        .overviewCont a.borderBtns span {
+            width: 115px;
+            padding: 8px;
+            font-size: 13px;
+        }
+        .contentbox2.contentbox2new .col-sm-4 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .followBtns a.btns {
+            width: 120px;
+            padding: 10px 15px;
+            font-size: 13px;
+        }
+        .partiesEvent .col-sm-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .productDet {
+            padding-top: 35px;
+        }
+        .rechargeMoney {
+            padding: 30px 15px;
+        }
+        .rechargeMoney h2 {
+            font-size: 20px;
+        }
+        .rechargeMoney p {
+            font-size: 24px;
+        }
+        .createForm.socialForm .col-sm-8 .col-sm-6{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .trendingTour.OrganisedTour .col-sm-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .teamInner .col-sm-4 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .coupon.couponwallet {
+            margin-bottom: 25px;
+        }
+        #homeSlider .carousel-item img {
+            object-fit: cover;
+        }
+        .EcommerceHead{
+            display: block;
+            margin: 0 0 35px 0;
+        }
+        .EcommerceArea .EcommerceHead ul .nav-item:last-child{
+            margin: 0;
+        }
+        .EcommerceArea .EcommerceHead ul .nav-item {
+            margin: 0 20px 0 0;
+        }
+        .viewBtn {
+            margin-top: 20px;
+        }
+        #Experience .col-sm-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+        .BrandBox ul li {
+            width: 50%;
+        }
+        .TrustArea .TrustHead ul.nav-tabs .nav-item {
+            width: 100%;
+        }
+        .PartiesArea .PartiesBody #Parties .active{margin-top:0px}
+.PartiesArea .PartiesBody #Parties .active.center{margin-top:0px}
+.PartiesArea .PartiesBody #Parties .active.center+.active+.active{margin-top:0}
+.PartiesArea .PartiesBody #Parties .owl-item{transition:0.8s all ease-in-out}
+.PartiesArea .PartiesBody #Parties .owl-stage-outer{
+    padding: 0;
+}
+.Footer .col-sm-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.Foots.padd25 {
+    padding: 0;
+}
+}
+@media(max-width:500px){
+    .container {
+        max-width: 100%;
+        padding: 0px 25px;
+    }
+    .RegisterForm {
+        padding: 25px;
+    }
+    .trendingbox.partiesBox {
+        padding: 4px;
+        margin-top: 10px;
+    }
+    .teamMicro {
+        padding: 50px 0px 70px;
+    }
+    .TournamentBox .col-sm-9 .row .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ChampionBox figure img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .epicContent{
+        position: relative;
+        margin-top: 25px;
+    }
+    .EpicSlider{
+        padding-bottom: 0;
+    }
+    .EpicSlider img.owl-lazy {
+        height: 215px;
+        object-fit: cover;
+    }
+    .ChampionBox.ChampionBox2 {
+        margin: 0 0 35px 0;
+    }
+    .ecommerceImg img {
+        height: 300px;
+        object-fit: cover;
+    }
+    h2.new {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    p.new {
+        line-height: 25px;
+    }
+    .epicInner p,
+     .contentTab p {
+        text-align: justify;
+    }
+    .epicInner {
+        padding: 25px;
+    }
+    .trendingTour.trendingTournew .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .trendingTour .trendingLeft h2 a br{
+        display: none;
+    }
+    .filtersIn:last-child {
+        margin: 0;
+        display: none;
+    }
+    ul.players li {
+        font-size: 22px;
+
+    }
+    .aboutPlayer p span.strong {
+        color: var(--colorWhite);
+        padding-left: 0;
+        display: block;
+        margin-top: 5px;
+    }
+    .aboutPlayer {
+        margin-bottom: 15px;
+    }
+    .aboutPlayer.marginZero {
+        margin-bottom: 15px !important;
+    }
+    .productBtns li a {
+        font-size: 12px;
+        width: 130px;
+    }
+    .modalCart {
+        padding: 75px 35px;
+    }
+    .modalCart h2 {
+        font-size: 15px;
+    }
+    #Consent-Agreement .modal-dialog .modal-content {
+        padding: 25px 15px;
+    }
+    .consent h2 {
+        font-size: 18px;
+    }
+    .consent p.checkedAl {
+         font-weight: 300; 
+        text-align: left;
+        line-height: 25px;
+        color: #fff;
+    }
+    .addamout ul li {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .BreadcrumbArea ul li a {
+        font-size: 12px;
+    }
+    .row.paddingTop.paddingBottom .col-sm-3,
+    .row.paddingTop.paddingBottom .col-sm-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .filterall {
+        height: 380px;
+        overflow: hidden;
+    }
+    .row.paddingTop.paddingBottom .col-sm-9{
+        margin-top: 35px;
+    }
+    .tournamentTabs.tournamentTabs2 .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tournamentDet img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .Toursocial img {
+        max-width: 20px;
+    }
+    .Toursocial ul li {
+        margin-right: 20px;
+    }
+    .businessImg.marginTops img {
+        min-height: 300px;
+        object-fit: cover;
+    }
+    .microworldCon p {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+    }
+    .bussinessIn h2, 
+    .applicationHead h2,
+     .teamInner h2,
+      .protectiveIn h2 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 32px;
+    }
+    .microBusiness {
+        padding: 55px 0px;
+    }
+    .applicationHead ul li {
+        list-style: none;
+        flex: 0 0 100%;
+        padding-top: 50px;
+    }
+    .protectiveIn h3 {
+        font-size: 20px;
+        color: var(--colorWhite);
+        font-weight: 300;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .protectiveIn p {
+        font-size: 16px;
+    }
+    .protectiveIn h3 {
+        font-size: 17px;
+    }
+    .cartTabs ul.nav.nav-tabs {
+        display: block;
+    }
+    .cartTabs ul.nav.nav-tabs li{
+        margin: 0;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .cartTabs ul.nav.nav-tabs li:last-child{
+        margin-bottom: 0;
+    }
+    .avatar-upload .avatar-preview {
+        width: 150px;
+        height: 150px;
+    }
+    .avatar-upload .avatar-edit input + label:after {
+        top: 95px;
+        left: -45px;
+    }
+    #Stories .modal-dialog .modal-content {
+        padding: 25px 25px;
+        background: #1F2430;
+    }
+    .trendingTabs ul.nav.nav-tabs li {
+        margin-right: 20px;
+    }
+    .trendFlex.trendFlex3 {
+        width: 100%;
+        display: block;
+    }
+    .trendLeft.trendLeft2 {
+        padding-bottom: 25px;
+    }
+    .trendFlex.trendFlex3 .trendRight{
+        margin-bottom: 25px;
+    }
+    #myCarousel .col-sm-9 {
+        width: 70%;
+    }
+    #myCarousel .col-sm-3 {
+        width: 30%;
+    }
+    .productDet #myCarousel .carousel-indicators > li{
+        width: 70px;
+    }
+    .productDet #myCarousel .carousel-indicators li img {
+        width: 40px;
+    }
+    .productDet #myCarousel .carousel-indicators > li a{
+        padding: 10px;
+    }
+    .brandDet ul li a {
+        height: 30px;
+        width: 30px;
+        font-size: 12px;
+    }
+    .brandDet ul li {
+        margin-right: 5px;
+    }
+    .singulartyTabs.myAccoutInTab .col-sm-6  form.walletForm.shootForm .col-sm-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .singulartyTabs ul li {
+        margin-right: 15px;
+    }
+    .singulartyTabs ul li {
+        margin-right: 0;
+        display: block;
+        margin-top: 20px;
+    }
+    .singulartyTabs ul li:last-child{
+        margin-top: 20px;
+    }
+    .AddressBody .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .orderTiming{
+        display: none;
+    }
+    .orderDes {
+        width: 100%;
+    }
+    .orderPlaced h2 {
+        font-size: 18px;
+        padding-top: 22px;
+    }
+    .partcipantDet .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .partcipantInner {
+        margin-top: 35px;
+    }
+    .Anncoment h5 {
+        font-size: 12px;
+        padding-top: 8px;
+    }
+    .profileImg img {
+        width: 65px;
+        height: 65px;
+    }
+    .overviewCont h2.main {
+        font-size: 14px;
+    }
+    select.selected.formControl.Partcipted {
+        width: 150px;
+    }
+    .PartcipantShort h2.main {
+        font-size: 14px;
+    }
+    .productBtns li a {
+        font-size: 12px;
+        width: 120px;
+    }
+    .modalCart h2 br{
+        display: none;
+    }
+    .annoucedBox {
+        padding: 25px;
+    }
+    .Anncoment{
+        display: block;
+    }
+    .sendBox button {
+        margin-left: 10px;
+    }
+    .partiesEvent .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .zoomingImg{
+        padding: 20px;
+    }
+    .trendingCon .trendingLeft {
+        width: 85%;
+    }
+    .ProfileArea .ProfileForm{
+        margin-left: 0;
+    }
+    .detailsRight {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .alltrending.alltrendingnew .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .trendFlex{
+        display: block;
+    }
+    .trendRight {
+        margin-top: 10px;
+    }
+    select.selected{
+        font-size: 12px;
+    }
+    .createForm.socialForm h2{
+        font-size: 16px;
+    }
+    .trendingTour.OrganisedTour .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .createTour.teamTour .productBtns li a{
+        width: 110px;
+    }
+    .teamDetail h2.main {
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .teamInner .flip-card-front, .teamInner .flip-card-back {
+        padding: 15px;
+    }
+    .teamInner h2.main {
+        padding-bottom: 0;
+    }
+    .singulartyTabs ul {
+        padding: 0px 0px 35px;
+    }
+    .partiesEvent.partiesEventnew{
+        padding-top: 0;
+    }
+    #homeSlider .carousel-item img {
+        height: 50vh;
+        width: 100%;
+    }
+    .signUpBtns a.btns {
+        width: 150px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .signUpBtns {
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        bottom: 35px;
+    }
+    .RegisterForm .RegisterFormBody .form-group .Submit,
+    .QueryArea .QueryForm form .Submit {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+    .virtualInner h2.main {
+        font-size: 28px;
+    }
+    .virtualInner h4 {
+        font-size: 18px;
+        padding: 12px 0px 12px;
+    }
+    .virtualInner h5 {
+        font-size: 18px;
+    }
+    .EcommerceArea .EcommerceHead ul{
+        display: block;
+    }
+    .EcommerceArea .EcommerceHead ul .nav-item{
+        display: block;
+        margin: 0 0 20px 0;
+    }
+    .EcommerceArea {
+        padding-bottom: 20px;
+    }
+    .BrandBox ul li {
+        width: 100%;
+    }
+    .PartiesArea .PartiesHead h3,
+    .TrustArea .TrustHead h3,
+    .QueryArea .QueryForm h3 {
+        font-size: 24px;
+    }
+    .PartiesArea {
+ background: transparent;
+    }
+    header .navbar .navbar-nav .nav-item .dropdown-menu {
+        margin: 0;
+        border: 0px solid #707070; 
+        background-color: transparent;
+        padding: 15px;
+        border-radius: 10px;
+        min-width: 180px;
+    }
+    header .navbar .navbar-nav .nav-item .nav-link{
+        display: inline-block;
+    }
+    header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+    .inviteBox h2 {
+        letter-spacing: 0.3px;
+        margin-bottom: 25px;
+        line-height: 28px;
+        font-size: 18px;
+    }
+    .inviteBox{
+        width: auto;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li span,
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong{
+        font-size: 14px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li {
+        margin: 0px 0 25px 0;
+    }
+    .orderFlexed{
+        display: block;
+    }
+    .StatusRight ul li a span {
+
+        padding: 10px 14px;
+    }
+    .StatusRight ul li a {
+        padding: 2px;
+        font-size: 12px;
+    }
+    .StatusRight ul li {
+        margin: 0 0 0 12px;
+    }
+    .OrderArea .OrderBox .OrderColor.Product figcaption h6{
+        font-size: 14px;
+    }
+    .OrderArea .OrderBox .OrderColor.Price h6 span, .OrderArea .OrderBox .OrderColor.Price p span {
+        min-width: 100%;
+    }
+    .OrderArea .OrderBox .OrderColor.Price p span.rupee,
+    .OrderArea .OrderBox .OrderColor.Price h6 span.rupee{
+        padding-left: 0;
+    }
+    .OrderArea .OrderBox h3{
+        font-size: 18px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a span {
+        padding: 8px 20px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li {
+        margin: 0 0 0 5px;
+    }
+    .OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a{
+        font-size: 14px;
+    }
+    .productDet{
+        overflow: hidden;
+    }
+}

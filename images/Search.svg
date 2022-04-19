@@ -1,0 +1,8 @@
+<svg id="MagnifyingGlass" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="MagnifyingGlass_Background_" data-name="MagnifyingGlass (Background)" width="24" height="24" fill="none"/>
+  <g id="MagnifyingGlass-2" data-name="MagnifyingGlass">
+    <path id="Vector" d="M24,0V24H0V0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M7.875,15.75A7.875,7.875,0,1,1,15.75,7.875,7.875,7.875,0,0,1,7.875,15.75Z" transform="translate(3 3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0,4.556,4.556" transform="translate(16.443 16.444)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 0"/>
+  </g>
+</svg>

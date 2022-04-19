@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('index.css');
+@import url('owl.carousel.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px;
+    color: #3a3a3a;
+    font-weight: 400; 
+    position: relative;
+    background-color: #050B18 !important;
+}
+ 
+/*body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: #050b18;
+}
+ 
+body::-webkit-scrollbar-thumb {background-image: linear-gradient( 
+45deg
+ , #09cbf8, #2b30f6);border: 2px solid #050b18;border-radius: 10px;}*/
+ 
+ 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clr,
+.clear {
+    clear: both;
+}
+
+header,
+footer,
+aside,
+article,
+section,
+nav,
+figure {
+    position: relative;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none !important;
+    outline: none;
+}
+
+img {
+    border: 0;
+    outline: none;
+    max-width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea,
+input[type="button"] {
+    max-width: 100%;
+}
+     
+table {  width: 100%; }
+p { margin: 0; padding: 0; }
+.fltL { float: left; }
+.fltR { float: right !important; }
+.padding_none { padding: 0 !important;}
+.border_none{border:none !important}
+.navbar-toggle {  background-color: #fff !important; }
+.icon-bar { background-color: #000 !important; }
+.p_right0{ padding-right:0px !important }
+.p_left0{ padding-left:0px !important }
+ 
+.Radio{display:block;position:relative;padding:0 40px 0 0;font-size:16px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;margin:0 0 20px 0;cursor:pointer}
+.Radio input{position:absolute;opacity:0;cursor:pointer}
+.Radio .checkmark{position:absolute;top:0;right:0;height:25px;width:25px;border:2px solid #fff;border-radius:15px;padding:0}
+.Radio .checkmark:after{content:"";position:absolute;display:none}
+.Radio input:checked~.checkmark:after{display:block}
+.Radio .checkmark:after{width:11px;height:11px;border-radius:15px;top:5px;left:5px;margin:auto;background-image: linear-gradient(#FECE00, #FE9900);}
+
+.Checkbox{display:block;position:relative;cursor:pointer;font-size:15px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;padding:0 0 0 30px;margin:0 0 0 0}
+.Checkbox input{position:absolute;opacity:0;cursor:pointer;height:0;width:0}
+.Checkbox .checkmark{position:absolute;top:0;left:0;height:22px;width:22px;border:1px solid #fff;border-radius:5px}
+.Checkbox input:checked~.checkmark{background-image:linear-gradient(45deg,#FECE00,#FE9900);border:none}
+.Checkbox .checkmark:after{content:"";position:absolute;display:none}
+.Checkbox input:checked~.checkmark:after{display:block}
+.Checkbox .checkmark:after{left:8px;top:5px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;-webkit-transform:rotate(115deg);-ms-transform:rotate(45deg);transform:rotate(50deg)}
+
+.RatingBox{text-align:center;margin:-30px 0 0 0}
+.RatingBox fieldset.rating{border:none;display:inline-block}
+.RatingBox fieldset>input{display:none}
+.RatingBox fieldset>label:before{margin:0 10px;font-size:30px;font-family:FontAwesome;display:inline-block;content:"\f006"}
+.RatingBox fieldset>.half:before{content:"\f006";position:absolute}
+.RatingBox fieldset>label{color:#ddd;float:right;margin:0;cursor:pointer}
+.RatingBox fieldset>input:checked~label,
+.RatingBox fieldset:not(:checked)>label:hover,
+.RatingBox fieldset:not(:checked)>label:hover~label{color:#FFC529}
+.RatingBox fieldset>input:checked+label:hover,
+.RatingBox fieldset>input:checked~label:hover,
+.RatingBox fieldset>label:hover~input:checked~label,
+.RatingBox fieldset>input:checked~label:hover~label{color:#FFC529}
+.RatingBox fieldset>input:checked~label:before,
+.RatingBox fieldset:not(:checked)>label:hover:before,
+.RatingBox fieldset:not(:checked)>label:hover~label:before{content:"\f005"}
+.RatingBox fieldset>input:checked+label:hover:before,
+.RatingBox fieldset>input:checked~label:hover:before,
+.RatingBox fieldset>label:hover~input:checked~label:before,
+.RatingBox fieldset>input:checked~label:hover~label:before{content:"\f005"}
+
+header .navbar{padding: 25px 0 25px;width:100%;}
+header .navbar .navbar-brand{padding:0;margin:0;max-width:215px}
+header .navbar .navbar-collapse{justify-content:flex-end}
+header .navbar .navbar-nav .nav-item{margin:0 0 0 20px}
+header .navbar .navbar-nav .nav-item .nav-link{color:#fff;font-size:14px;padding:10px 0}
+header .navbar .navbar-nav .nav-item .dropdown-menu{margin:0;border:2px solid #707070;background-color:#1F2430;padding:15px;border-radius:10px;min-width:180px}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{color:#fff;font-size:14px;padding:10px 15px;border-radius:6px}
+header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    background-image: linear-gradient(#FECE00, #FE9900);
+}
+header .navbar .menuright{margin:0 0 0 15px}
+header .navbar .menuright ul{display:flex;align-items:center}
+header .navbar .menuright ul li{display:inline-block;margin:0 0 0 10px}
+header .navbar .menuright ul li .SearchBar{min-width:350px;height:45px;background-color:#1f2430;position:relative;display:none;padding:12px 10px 12px 20px;border-radius:50px}
+header .navbar .menuright ul li .SearchBar input{width:92%;background-color:transparent;border:none;outline:0;transition:0.5s all ease-in-out;color:#fff}
+header .navbar .menuright ul li .SearchBar button{border:none;background:transparent;max-width:20px;outline:0}input[type=search]::-webkit-search-cancel-button{position:absolute;right:5px;content:'';background-image:url(../images/cross.png);-webkit-appearance:none;height:12px;width:12px;background-repeat:no-repeat;background-size:cover;cursor:pointer}
+header .navbar .menuright ul li a{background-color:#1f2430;width:45px;height:45px;display:inline-flex;border-radius:50%;align-items:center;justify-content:space-around}
+header .navbar .menuright ul li a img{max-width:20px}
+header .navbar .menuright ul li.dropdown .dropdown-toggle{
+    background-image: linear-gradient(#FECE00, #FE9900);
+      color: #fff; font-size: 18px; }
+header .navbar .menuright ul li.dropdown .dropdown-toggle:after{ content: none; }
+header .navbar .menuright ul li .dropdown-menu{margin:0;border:2px solid #707070;background-color:#1F2430;padding:15px;border-radius:10px;min-width: 200px;left: auto;right: 0;top: 55px;}
+header .navbar .menuright ul li .dropdown-menu .dropdown-item{color:#fff;font-size:14px;padding:10px 15px;border-radius:6px;display: block;width: auto;height: auto;}
+header .navbar .menuright ul li .dropdown-menu .dropdown-item:hover{
+    background-image: linear-gradient(#FECE00, #FE9900);
+}
+.SliderArea{padding:125px 0 200px 0;position:relative}
+.SliderArea:before{content:'';background-image:url(../images/dots.png);position:absolute;width:96px;height:213px;right:0;top:50px}
+.SliderArea:after{content:'';background-image:url(../images/dots.png);position:absolute;width:230px;height:165px;left:0;bottom:0;background-repeat:no-repeat}
+.SliderArea .carouselbox{display:flex;justify-content:flex-end;align-items:center}
+.SliderArea .carouselbox .carouselleft{width:45%}
+.SliderArea .carouselbox .carouselleft h3{color:#09C8F8;font-weight:800;font-size:36px;margin:0 0 10px 0}
+.SliderArea .carouselbox .carouselleft h4{margin:0 0 15px 0;color:#fff;font-size:25px;font-weight:300}
+.SliderArea .carouselbox .carouselleft p{color:#CECBCB;font-size:13px;line-height:24px;margin:0 0 30px 0}
+.SliderArea .carouselbox .carouselleft .Buy{background-image:linear-gradient(45deg,#09cbf8,#2b30f6);padding:10px 30px;display:inline-block;color:#fff;border-radius:5px;font-size:15px}
+.SliderArea .carouselbox .carouselright{width:45%}
+.SliderArea .carouselbox .carouselright img{width:90%;margin-left:auto;display:block}.carousel-fade .carousel-inner .carousel-item{opacity:0;transition-property:opacity}.carousel-fade .carousel-inner .active{opacity:1}.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left:0;opacity:0;z-index:1}.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right{opacity:1}.carousel-fade .carousel-control{z-index:2}@media all and (transform-3d),(-webkit-transform-3d){.carousel-fade .carousel-inner>.carousel-item.next,.carousel-fade .carousel-inner>.carousel-item.active.right{opacity:0;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.carousel-fade .carousel-inner>.carousel-item.prev,.carousel-fade .carousel-inner>.carousel-item.active.left{opacity:0;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.carousel-fade .carousel-inner>.carousel-item.next.left,.carousel-fade .carousel-inner>.carousel-item.prev.right,.carousel-fade .carousel-inner>.carousel-item.active{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.carousel,.carousel-inner,.carousel-inner .carousel-item{height:100%;background-size:cover;background-position:center center;background-repeat:no-repeat}
+.SliderArea #carouselFade ul.carousel-indicators{display:block;width:50px;margin:0;justify-content:inherit;top:-60px}
+.SliderArea #carouselFade ul.carousel-indicators li{text-indent:0;margin:60px 0;border:0;border-radius:50%;display:block;flex:auto;width:50px;height:50px;position:relative;opacity:1;background:#1F2430;border:2px solid #1F2430}
+.SliderArea #carouselFade ul.carousel-indicators li span{color:#fff;display:block;text-align:center;line-height:50px;position:relative;z-index:9}
+.SliderArea #carouselFade ul.carousel-indicators li:before{content:'';border:1px dashed #1F2430;width:1px;height:100px;top:50px;position:absolute;left:25px;z-index:0}
+.SliderArea #carouselFade ul.carousel-indicators li:last-child:before{content:none}
+.SliderArea #carouselFade ul.carousel-indicators li.active{border-color:#09C8F8}
+.SliderArea #carouselFade ul.carousel-indicators li.active:before{border-color:#09C8F8}
+
+.EcommerceArea{padding:75px 0}
+.EcommerceArea .EcommerceHead{margin:0 0 50px 0}
+.EcommerceArea .EcommerceHead ul{border:none}
+.EcommerceArea .EcommerceHead ul .nav-item{margin:0 40px 0 0}
+.EcommerceArea .EcommerceHead ul .nav-item .nav-link{border:none;padding:0;color:#707070;font-size:16px;font-weight:500;position:relative;padding:0 0 10px 0}
+.EcommerceArea .EcommerceHead ul .nav-item .nav-link:after{content:'';position:absolute;bottom:0;left:0;width:0;height:3px;background-image: linear-gradient(#FECE00, #FE9900);transition:0.5s all ease-in-out}
+.EcommerceArea .EcommerceHead ul .nav-item .nav-link.active{background-color:transparent;color:#fff}
+.EcommerceArea .EcommerceHead ul .nav-item .nav-link.active:after{width:45px}
+
+.TournamentBox .TournamentLeft{background-color:#1F2430;padding:20px;height:100%;border-radius:10px}
+.selectbox{position:relative}
+.selectbox select{width:100%;background-color:#050B18;border:none;color:#ddd;padding:12px 15px;border-radius:7px;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;outline:0}
+.selectbox span{color:#fff;position:absolute;right:15px;top:13px}
+.TournamentBox .TournamentLeft ul li a{color:#fff;font-size:14px;padding:10px 15px;border-radius:6px;display:block;transition:0.5s all ease-in-out}
+.TournamentBox .TournamentLeft ul li a:hover{
+    background-image: linear-gradient(#FECE00, #FE9900);
+}
+
+.ChampionBox{margin:0 0 30px 0}
+.ChampionBox figure{border:2px solid #fff;border-radius:7px;margin:0 0 10px 0}
+.ChampionBox figcaption h3{font-size:15px;color:#fff;font-weight:400;margin:0 0 5px 0}
+.ChampionBox figcaption p{color:#707070;font-weight:500;font-size:14px}
+.ChampionBox figcaption p i{margin-right:10px}
+
+.PartiesArea{background-image:url(../images/parties.png);padding:60px 0;background-size:cover}
+.PartiesArea .PartiesHead{text-align:center;color:#fff;margin:0 0 60px 0}
+.PartiesArea .PartiesHead h3{margin:0 0 10px 0;font-size:32px;font-weight:600}
+.PartiesArea .PartiesHead p{font-size:14px;line-height:25px}
+
+.PartiesBox{background-color:#050B18;padding:10px;border-radius:10px;min-height:400px}
+.PartiesBox figcaption{padding:0 15px}
+.PartiesBox figcaption h3{font-size:19px;color:#fff;font-weight:500;margin:0 0 10px 0}
+.PartiesBox figcaption h5{color:#707070;font-weight:600;font-size:14px;margin:0 0 10px 0}
+.PartiesBox figcaption h5 i{margin-right:10px}
+.PartiesBox figcaption p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;color:#707070;font-size:12px;line-height:22px}
+.PartiesBox .PartiesFooter{display:flex;justify-content:space-between;align-items:center;margin:10px 0 0 0;padding:0 15px}
+.PartiesBox .PartiesFooter p{color:#707070;font-weight:500;font-size:15px}
+.PartiesBox .PartiesFooter .Arrow{width:40px;height:40px;background-color:#1F2430;border-radius:50%;padding:0;display:inline-flex;align-items:center;justify-content:center}
+.PartiesBox .PartiesFooter .Arrow img{max-width:20px}
+.PartiesArea .PartiesBody #Parties .owl-stage-outer{padding:200px 0 0 0}
+.PartiesArea .PartiesBody #Parties .active{margin-top:-100px}
+.PartiesArea .PartiesBody #Parties .active.center{margin-top:-200px}
+.PartiesArea .PartiesBody #Parties .active.center+.active+.active{margin-top:0}
+.PartiesArea .PartiesBody #Parties .owl-item{transition:0.8s all ease-in-out}
+.PartiesArea .PartiesBody #Parties .owl-nav{text-align:center}
+.PartiesArea .PartiesBody #Parties .owl-nav .owl-prev{width:60px;height:60px;background-color:#000;border-radius:50%;color:#fff;font-size:30px;margin-right:50px;outline:0;text-align:center;box-shadow:0 0 20px #7b7b7b}
+.PartiesArea .PartiesBody #Parties .owl-nav .owl-next{width:60px;height:60px;background-color:#000;border-radius:50%;color:#fff;font-size:30px;margin-left:50px;outline:0;text-align:center;box-shadow:0 0 20px #7b7b7b;font-weight:100}
+.PartiesArea .PartiesBody .center .PartiesBox{
+    background-image: linear-gradient(#FECE00, #FE9900);
+}
+.PartiesArea .PartiesBody .center .PartiesBox figcaption h5{color:#fff}
+.PartiesArea .PartiesBody .center .PartiesBox figcaption p{color:#fff}
+.PartiesArea .PartiesBody .center .PartiesBox .PartiesFooter p{color:#fff}
+
+.TrustArea{padding:50px 0}
+.TrustArea .TrustHead{margin:0 0 50px 0}
+.TrustArea .TrustHead h3{color:#fff;font-size:30px;margin:0 0 15px 0;font-weight:600}
+.TrustArea .TrustHead p{font-size:14px;color:#CECBCB;line-height:24px}
+.TrustArea .TrustHead ul.nav-tabs{border:none;margin:20px 0 0 0;background-color:#262A34;padding:10px 20px}
+.TrustArea .TrustHead ul.nav-tabs .nav-item{margin:0;width:25%;text-align:center}
+.TrustArea .TrustHead ul.nav-tabs .nav-item .nav-link{border:none;color:#707070;font-size:15px;font-weight:500;padding:15px 0;border-radius:10px}
+.TrustArea .TrustHead ul.nav-tabs .nav-item .nav-link.active{    background-image: linear-gradient(#FECE00, #FE9900);color:#050B18;font-weight: 600;}
+
+.BrandBox ul{display:flex;flex-wrap:wrap}
+.BrandBox ul li{width:20%;padding:0 15px;margin:0 0 30px 0}
+.BrandBox ul li figure{margin:0;background-color:#fff;min-height:200px;display:flex;align-items:center;justify-content:center;border-radius:10px;padding:20px}
+
+.QueryArea{background-image:url(../images/query.png);padding:50px 0;background-size:cover}
+.QueryArea .QueryForm h3{text-align:center;color:#fff;font-size:25px;font-weight:600;margin:0 0 10px 0}
+.QueryArea .QueryForm p{font-size:14px;color:#CECBCB;line-height:24px;text-align:center}
+.QueryArea .QueryForm form{margin:60px 0 0 0}
+.QueryArea .QueryForm form .form-group{margin:0 0 25px 0;position:relative}
+.QueryArea .QueryForm form .form-group .Icon{position:absolute;top:18px;right:10px}
+.QueryArea .QueryForm form .form-group .form-control{color:#fff;box-shadow:0 0 10px #fece0054;background-color:#000;border:none;outline:0;padding:20px 40px 20px 20px;height:auto;border-radius:7px;font-size:14px;border: 1px solid transparent;}
+.QueryArea .QueryForm form .form-group textarea.form-control{resize:none;padding:20px}
+.QueryArea .QueryForm form .Submit{
+    background-image: linear-gradient(#FECE00, #FE9900);
+    padding:15px 30px;font-size:18px;border:none;min-width:300px;margin:40px auto 0;display:block;color:#000;border-radius:7px;    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;outline:0;text-transform: uppercase;}
+
+.Footer{background-color:#000;padding:50px 0 0;position: relative;padding-bottom: 85px;}
+.Footer .FooterLogo{margin:0 0 30px 0}
+.Footer .Foots{margin: 0 0 0px 0;}
+.Footer .Foots+.Foots{margin:25px 0 20px 0}
+.Footer .Foots h3{font-size:15px;color:#fff;font-weight:600;margin:0 0 20px 0;line-height:23px}
+.Footer .Foots address{margin:0 0 20px 0;color:#fff;font-size:13px;line-height:22px}
+.Footer .Foots address a{color:#fff}
+.Footer .Foots ul li{margin:0 0 15px 0}
+.Footer .Foots ul li a{color:#fff}
+.Footer .Foots ul li a:hover{color:#FECE00}
+.Footer .Foots ol li{display:inline-block;margin:0 40px 0 0}
+.Footer .Foots ol li a{color:#fff;font-size:20px}
+.Footer .Foots .form-group .form-control{box-shadow:0 0 10px #09c8f826;background-color:#000;border:none;outline:0;padding:15px 15px;height:auto;border-radius:7px;font-size:14px}
+.Footer .Foots .form-group .form-control:focus{
+    color:#fff;
+}
+.Footer .footerImages{position: absolute;right:80px;bottom: 0;}
+ .Footer .footerImages img{max-width:325px;} 
+
+.BreadcrumbArea ul{padding:15px 40px;background-color:#0F1521;width:100%}
+.BreadcrumbArea ul li{display:inline-block;margin:0 30px 0 0;position:relative}
+.BreadcrumbArea ul li+li:before{content:'\f105';font-family:FontAwesome;color:#fff;position:absolute;top:0;left:-21px;font-size:15px}
+.BreadcrumbArea ul li a{color:#fff;font-size:15px;font-weight:500}
+.BreadcrumbArea ul li.active a{color:#FECE00;font-weight:600}
+
+.OrderArea{padding:50px 0}
+.OrderArea .OrderBox{margin:0 0 40px 0}
+.OrderArea .OrderBox h3{color:#fff;font-size:20px;margin:0 0 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important;}
+.OrderArea .OrderBox .OrderColor{background-color:#262A34;border-radius:10px;padding:40px 40px;min-height:225px}
+.OrderArea .OrderBox .OrderColor.Product{display:flex;padding:40px 40px;align-items:center}
+.OrderArea .OrderBox .OrderColor.Product figure{margin:0;width:200px}
+.OrderArea .OrderBox .OrderColor.Product figure img{max-width:125px}
+.OrderArea .OrderBox .OrderColor.Product figcaption h4{font-size:15px;color:#fff;margin:0 0 20px 0;line-height:23px}
+.OrderArea .OrderBox .OrderColor.Product figcaption h6{color:#CECBCB;margin:0 0 20px 0}
+.OrderArea .OrderBox .OrderColor.Product figcaption h6 span{color:#fff}
+.OrderArea .OrderBox .OrderColor.Product figcaption p{color:#CECBCB;font-size:15px}
+.OrderArea .OrderBox .OrderColor.Product figcaption p span{color:#FECE00}
+.OrderArea .OrderBox .OrderColor.Address p{font-size:15px;color:#fff;line-height:27px}
+.OrderArea .OrderBox .OrderColor.Price{padding:40px 75px}
+.OrderArea .OrderBox .OrderColor.Price p{font-size:15px;color:#fff;line-height:27px;margin:0 0 15px 0}
+.OrderArea .OrderBox .OrderColor.Price p span{min-width:210px;display:inline-block}
+.OrderArea .OrderBox .OrderColor.Price h6{font-size:20px;color:#09C8F8;line-height:27px;margin:50px 0 0 0;font-weight:600}
+.OrderArea .OrderBox .OrderColor.Price h6 span{min-width:210px;display:inline-block;font-size:15px;color:#fff;font-weight:500}
+.OrderArea .OrderBox .OrderColor.StatusBox{display:flex;justify-content:space-between;align-items:center;padding:60px 75px}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul{display:flex;flex-wrap:wrap;width:100%}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li{width:50%;margin:0 0 50px 0}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li span{color:#CECBCB;display:block;font-size:16px;line-height:20px;margin:0 0 6px 0}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong{color:#fff;font-size:16px;font-weight:500}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status{padding:0 0 0 15px;position:relative}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status:before{content:'';position:absolute;top:0;bottom:0;margin:auto;left:0;width:8px;height:8px;border-radius:50%}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status.Complete{color:#B7D96F}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status.Complete:before{background-color:#B7D96F}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status.Ongoing{color:#FE9900}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li strong.Status.Ongoing:before{background-color:#FE9900}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusLeft ul li:nth-last-child(-n+2){margin:0}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li{display:inline-block;margin:0 0 0 20px}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a{padding:2px;display:inline-block;color:#fff;border-radius:5px;font-size:15px;background-image: linear-gradient(#FECE00, #FE9900);}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a span{background-color:#262a34;padding:13px 40px;border-radius:5px;display:block}
+.OrderArea .OrderBox .OrderColor.StatusBox .StatusRight ul li a:hover span{
+    background-image: linear-gradient(#FECE00, #FE9900);}
+
+.modal-backdrop.show { opacity: .9; }
+.ModalBox .BigModal .modal-dialog{max-width:800px;margin: 50px auto;}
+.ModalBox .MediumModal .modal-dialog{max-width: 600px;margin: 50px auto;}
+.ModalBox #TrackModal .modal-dialog{max-width: 1250px;margin: 100px auto;}
+.ModalBox .modal-dialog .modal-content{background-color:transparent}
+.RegisterForm{background-color:#1F2430;padding:50px;position:relative;border-radius:0px}
+.RegisterForm .RegisterFormHead{margin:0 0 50px 0}
+.RegisterForm .RegisterFormHead img{ width: 150px; margin: 0 auto 30px; display: block; }
+.RegisterForm .RegisterFormHead h4{text-align:left;color:#fff;margin:0 0 10px 0;font-weight:500}
+.RegisterForm .RegisterFormHead p{color:#fff;text-align:left;font-size: 14px;line-height: 27px;}
+.RegisterForm .RegisterFormHead .Close{position:absolute;right:20px;top:20px;color:#fff;background-color:transparent;border:none;outline:0;font-size:30px;width:20px;height:20px;line-height:20px}
+.RegisterForm .RegisterFormBody .form-group{position:relative;margin:0 0 20px 0}
+.RegisterForm .RegisterFormBody .form-group span.Icon{position:absolute;top:18px;right:10px}
+.RegisterForm .RegisterFormBody .form-group span.Icon i{font-size: 20px; color: #4F5158}
+.RegisterForm .RegisterFormBody .form-group .form-control{box-shadow:none;background-color:#000;border:none;outline:0;padding:17px 40px 17px 20px;height:auto;border-radius:7px;font-size:14px;color:#fff;border:1px solid #000}
+.RegisterForm .RegisterFormBody .form-group .form-control:focus{
+    border-color: #FE9900;
+}
+.RegisterForm .RegisterFormBody .form-group textarea{ resize: none; }
+.RegisterForm .RegisterFormBody .form-group select{ -webkit-appearance: none; -moz-appearance:    none; appearance:         none; }
+.RegisterForm .RegisterFormBody .form-group p{text-align:right;margin:10px 0 0 0}
+.RegisterForm .RegisterFormBody .form-group p a{color:#FE9900;font-weight:500}
+.RegisterForm .RegisterFormBody .form-group .Submit{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg,#FECE00, #FE9900);
+    padding:15px 30px;font-size: 17px;border:none;min-width:300px;margin:30px auto 20px;display:block;color:#000;border-radius:7px;font-weight: 500;outline:0;}
+.RegisterForm .RegisterFormBody .form-group h6{text-align:center;color:#fff;font-size:14px;font-weight:400}
+.RegisterForm .RegisterFormBody .form-group h6 a{color:#FECE00}
+.RegisterForm .RegisterFormBody .form-group h6 a:hover{text-decoration:underline!important}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck h5{margin:0 0 20px 0;color:#fff;font-size:20px}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck ul{padding:0 0 0 20px}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck ul li{width:32%;display:inline-block;margin:0 0 30px 0}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck ul li label{display:inline-block}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck ol{padding:0 0 0 20px}
+.RegisterForm .RegisterFormBody .form-group .OrderCheck ol li{margin-bottom:20px}
+
+.LoginForm{max-width:400px;margin:auto}
+.RegisterForm .LoginForm  .RegisterFormBody button.Submit,
+.RegisterForm .LoginForm  .RegisterFormBody a.Submit{width:100%;margin:100px 0 50px 0;text-align: center; }
+.RegisterForm .LoginForm  .RegisterFormBody button.Submit.Return{margin: 40px 0 20px 0;}
+
+.TrackBox{background-color:#1F2430;padding:125px 50px;position:relative;border-radius:10px}
+.TrackBox h4{text-align:center;color:#fff;margin:0 0 0 0;font-weight:500}
+.TrackBox .Close{position:absolute;right:20px;top:20px;color:#fff;background-color:transparent;border:none;outline:0;font-size:30px;width:20px;height:20px;line-height:20px}
+.TrackBox ul{display:flex;margin:90px 0 0 0;justify-content:space-between}
+.TrackBox ul li{min-width:155px;position:relative}
+.TrackBox ul li:before{content:'';width:100%;height:1px;position:absolute;left:7px;border:1px dashed #707070;top:14px}
+.TrackBox ul li:last-child:before{content:none}
+.TrackBox ul li span.Circle{width:30px;height:30px;background-color:#707070;display:block;border-radius:50%;margin:0 0 10px 0;border:2px dashed #707070;position:relative;z-index:9}
+.TrackBox ul li span.Title{display:block;color:#707070;font-style:italic;width:90%;font-size:14px;font-weight:500;line-height:21px}
+.TrackBox ul li span.Date{display:block;font-size:12px}
+.TrackBox ul li.Complete:before{border-color:#FECE00}
+.TrackBox ul li.Complete span.Circle{border-color:#FECE00;background-color:#000}
+.TrackBox ul li.Complete span.Circle:before{content:'';background-image: linear-gradient(45deg,#FECE00, #FE9900);position:absolute;width:18px;height:18px;border-radius:50%;left:0;right:0;top:0;bottom:0;margin:auto}
+.TrackBox ul li.Complete span.Title{color:#fff}
+.TrackBox ul li.Complete span.Date{color:#CECBCB}
+
+.ProfileArea{padding:50px 0 20px}
+.ProfileArea .ProfileForm{max-width:800px;margin:0 0 50px 20px}
+.ProfileArea .ProfileForm h3{color:#fff;margin:0 0 10px 0}
+.ProfileArea .ProfileForm p{color:#707070;font-size:15px;font-weight:600}
+.ProfileArea .ProfileForm form{margin:40px 0 0 0}
+.ProfileArea .ProfileForm form .form-group{position:relative;margin:0 0 30px 0}
+.ProfileArea .ProfileForm form .form-group span.Icon{position: absolute;top: 15px;right: 15px;font-size: 18px;color: #63757d;}
+.ProfileArea .ProfileForm form .form-group span.Icon a{color:#09C8F8;font-weight:500}
+.ProfileArea .ProfileForm form .form-group .form-control{box-shadow:none;background-color:#262A34;font-weight:500;outline:0;padding:17px 40px 17px 20px;height:auto;border-radius:7px;font-size:14px;color:#fff;border:1px solid #262a34}
+.ProfileArea .ProfileForm form .form-group .form-control:focus{border-color:#FECE00}
+.ProfileArea .ProfileForm form .update{background-image: linear-gradient(#FECE00, #FE9900);padding:15px 30px;font-size:17px;border:none;width:100%;display:block;color:#fff;border-radius:7px;font-weight:500;outline:0}
+.StickyPostion{position:sticky;top:150px}
+.AddressArea{padding:50px 0 40px}
+.AddressArea .AddressHead{margin:0 0 50px 20px}
+.AddressArea .AddressHead h3{color:#fff;margin:0 0 5px 0;font-size:20px;font-family: 'Poppins', sans-serif;font-weight: 500 !important;}
+.AddressArea .AddressHead p{color:#707070;font-size:14px;font-weight:600;margin:0 0 50px 0}
+.AddressArea .AddressHead a{background-image: linear-gradient(#FECE00, #FE9900);padding:15px 30px;font-size:17px;border:none;width:300px;display:block;color:#000;border-radius:7px;    font-family: 'Poppins', sans-serif;font-weight: 600 !important;outline:0;text-align:center}
+.AddressBox{background-color:#262A34;border-radius:10px;padding:20px;margin:0 0 30px 0}
+.AddressBox .AddressFirst{display:flex;justify-content:space-between;margin:0 0 20px 0}
+.AddressBox .AddressFirst p{color:#fff;font-size:14px;line-height:27px;width:70%}
+.AddressBox .AddressFirst label{margin:0;display:inline-block;padding:0 30px 0 0;font-size:13px}
+.AddressBox .AddressFirst label .checkmark{width:20px;height:20px}
+.AddressBox .AddressFirst label .checkmark:after{width:8px;height:8px;top:4px;left:4px}
+.AddressBox .AddressSecond{display:flex;align-items:center;justify-content:space-between}
+.AddressBox .AddressSecond a.Change{color:#FECE00;font-weight:500}
+.AddressBox .AddressSecond a.Delete{background-color:#1F2430;width:40px;height:40px;text-align:center;color:#fff;line-height:40px;border-radius:50%}
+.RegisterForm .RegisterFormBody .form-group.flotRight { float: right;}
+.RegisterForm .RegisterFormBody .form-group.flotRight .Submit{margin: 0;}
+#ReviewModal .RegisterForm .RegisterFormHead h4,
+#ReviewModal .RegisterForm .RegisterFormHead p,
+.RegisterForm .RegisterFormHead.RegisterFormHeadnew p,
+.RegisterForm .RegisterFormHead.RegisterFormHeadnew h4{text-align: center;}
+.RegisterForm .LoginForm  .RegisterFormBody a.Submit{margin: 60px 0 15px 0;width:100%;text-align: center;}
+.RegisterForm .LoginForm  .RegisterFormBody a.Submit{width:100%;margin:100px 0 50px 0;text-align: center; }

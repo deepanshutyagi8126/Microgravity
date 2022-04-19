@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_16" data-name="Group 16" transform="translate(-355 -55)">
+    <path id="Path_26" data-name="Path 26" d="M16,11V7A4,4,0,0,0,8,7v4M5,9H19l1,12H4Z" transform="translate(355.5 55.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="BellSimple" transform="translate(355 55)" opacity="0">
+      <rect id="BellSimple_Background_" data-name="BellSimple (Background)" width="24" height="24" fill="#fff"/>
+      <g id="BellSimple-2" data-name="BellSimple">
+        <path id="Vector" d="M24,0V24H0V0Z" fill="#fff"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H6" transform="translate(9 21)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

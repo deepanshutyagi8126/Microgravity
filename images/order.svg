@@ -1,0 +1,29 @@
+<svg id="noto-v1:joystick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="noto-v1:joystick_Background_Mask_" data-name="noto-v1:joystick (Background/Mask)" width="96" height="96" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="noto-v1:joystick_Background_Mask_2" data-name="noto-v1:joystick (Background/Mask)" width="96" height="96" fill="none"/>
+  <g id="noto-v1:joystick-2" data-name="noto-v1:joystick" clip-path="url(#clip-path)">
+    <path id="Vector" d="M39.495.984,5.505,15.714A9.935,9.935,0,0,0,0,24.1v6a9.935,9.935,0,0,0,5.505,8.385l33.99,14.73a15.885,15.885,0,0,0,11.01,0L84.5,38.484A9.935,9.935,0,0,0,90,30.1v-6a9.935,9.935,0,0,0-5.5-8.385L50.5.984A15.885,15.885,0,0,0,39.495.984Z" transform="translate(3 40.4)" fill="#006ca2"/>
+    <path id="Vector-2" data-name="Vector" d="M36.262,35.214,2.273,20.484c-3.03-1.312-3.03-3.458,0-4.77L36.262.984a15.885,15.885,0,0,1,11.01,0l33.99,14.73c3.03,1.312,3.03,3.458,0,4.77l-33.99,14.73h0A15.885,15.885,0,0,1,36.262,35.214Z" transform="translate(6.233 40.4)" fill="#40c0e7"/>
+    <path id="Vector-3" data-name="Vector" d="M0,13.5c0,2.985,6.045,5.4,13.5,5.4S27,16.485,27,13.5A13.5,13.5,0,0,0,13.5,0h0A13.5,13.5,0,0,0,0,13.5Z" transform="translate(34.5 44.55)" fill="#2f2f2f"/>
+    <path id="Vector-4" data-name="Vector" d="M0,25.5C0,26.325,2.017,27,4.5,27S9,26.325,9,25.5V0H0Z" transform="translate(43.5 22.5)" fill="#78a3ad"/>
+    <path id="Vector-5" data-name="Vector" d="M9,11.123V0H0V11.123A11.967,11.967,0,0,0,9,11.123Z" transform="translate(43.5 22.5)" fill="#2f2f2f"/>
+    <path id="Vector-6" data-name="Vector" d="M14.25,28.5A14.25,14.25,0,1,1,28.5,14.25,14.25,14.25,0,0,1,14.25,28.5Z" transform="translate(33.75 3)" fill="#ed6c30"/>
+    <path id="Vector-7" data-name="Vector" d="M.11,3.968C.92,7,6.17,5.033,4.445,1.635,3.643.03,2.525-.255,1.61.188A3.343,3.343,0,0,0,.11,3.968Z" transform="translate(37.862 10.125)" fill="#fff"/>
+    <g id="Group" transform="translate(16.5 55.5)">
+      <path id="Vector-8" data-name="Vector" d="M7.5,7.5C3.358,7.5,0,5.821,0,3.75S3.358,0,7.5,0,15,1.679,15,3.75,11.642,7.5,7.5,7.5Z" fill="#006ca2"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(108 6)">
+      <path id="Vector-9" data-name="Vector" d="M45,54.2a14.286,14.286,0,0,1-5.505-.984L5.505,38.484A9.914,9.914,0,0,1,0,30.1v-6a9.917,9.917,0,0,1,5.505-8.385L39.495.985A14.277,14.277,0,0,1,45,0a14.277,14.277,0,0,1,5.505.985L84.495,15.714A9.917,9.917,0,0,1,90,24.1v6a9.914,9.914,0,0,1-5.505,8.384L50.505,53.214A14.286,14.286,0,0,1,45,54.2Zm-.232-51a14.277,14.277,0,0,0-5.505.985L5.272,18.909C3.807,19.544,3,20.391,3,21.295s.807,1.75,2.272,2.384l33.99,14.73a14.286,14.286,0,0,0,5.505.984,14.28,14.28,0,0,0,5.5-.984l33.99-14.73c1.462-.635,2.267-1.481,2.267-2.384s-.8-1.75-2.267-2.386L50.272,4.18A14.272,14.272,0,0,0,44.768,3.195Z" transform="translate(0 34.303)" fill="#40c0e7"/>
+      <path id="Vector-10" data-name="Vector" d="M0,12c0,2.647,5.37,4.8,12,4.8S24,14.647,24,12A12,12,0,0,0,12,0h0A12,12,0,0,0,0,12Z" transform="translate(33 41.7)" fill="#2f2f2f"/>
+      <path id="Vector-11" data-name="Vector" d="M0,25.5C0,26.325,2.017,27,4.5,27S9,26.325,9,25.5V0H0Z" transform="translate(40.5 19.5)" fill="#78a3ad"/>
+      <path id="Vector-12" data-name="Vector" d="M9,11.123V0H0V11.123A11.967,11.967,0,0,0,9,11.123Z" transform="translate(40.5 19.5)" fill="#2f2f2f"/>
+      <path id="Vector-13" data-name="Vector" d="M14.25,28.5A14.25,14.25,0,1,1,28.5,14.25,14.25,14.25,0,0,1,14.25,28.5Z" transform="translate(30.75)" fill="#ed6c30"/>
+      <path id="Vector-14" data-name="Vector" d="M.11,3.968C.92,7,6.17,5.033,4.445,1.635,3.643.03,2.525-.255,1.61.188A3.343,3.343,0,0,0,.11,3.968Z" transform="translate(34.862 7.125)" fill="#fff"/>
+      <path id="Vector-15" data-name="Vector" d="M7.5,7.5C3.358,7.5,0,5.821,0,3.75S3.358,0,7.5,0,15,1.679,15,3.75,11.642,7.5,7.5,7.5Z" transform="translate(13.5 51)" fill="#fcc21b"/>
+    </g>
+  </g>
+</svg>

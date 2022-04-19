@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58.98" height="74.366" viewBox="0 0 58.98 74.366">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09cbf8"/>
+      <stop offset="1" stop-color="#2b30f6"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_35132" data-name="Group 35132" transform="translate(-6993 -14842)">
+    <g id="wedding-invitation-svgrepo-com" transform="translate(6993 14842)">
+      <path id="Path_6248" data-name="Path 6248" d="M152.372,1.272a6.377,6.377,0,0,0-7.642,0l-12.106,8.986h31.854Z" transform="translate(-119.061 0)" fill="#82c8dc"/>
+      <path id="Path_6249" data-name="Path 6249" d="M105.426,100.729l-4.857-3.605v25.729L83.214,135.735l-.374-.278a8.92,8.92,0,0,0-10.7,0l-.374.278L54.411,122.852V97.123l-4.856,3.6A3.862,3.862,0,0,0,48,103.817v17.469l.026.021,21.589,16.025L48.2,153.23a3.84,3.84,0,0,0,1.534,2.055l23.939-17.769a6.377,6.377,0,0,1,7.642,0l23.939,17.769a3.84,3.84,0,0,0,1.535-2.055l-21.419-15.9,21.589-16.024.026-.022v-17.47A3.859,3.859,0,0,0,105.426,100.729Z" transform="translate(-48 -81.557)" fill="#09c8f8"/>
+      <path id="Path_6250" data-name="Path 6250" d="M85.365,263.928l21.419,15.9a3.84,3.84,0,0,1-1.535,2.055L81.311,264.112a6.377,6.377,0,0,0-7.642,0L49.73,281.881a3.84,3.84,0,0,1-1.534-2.055l21.42-15.9L48.026,247.9,48,247.882v30.791a3.847,3.847,0,0,0,3.847,3.847h51.287a3.847,3.847,0,0,0,3.847-3.847V247.883l-.026.022Z" transform="translate(-48 -208.153)" fill="url(#linear-gradient)"/>
+      <path id="Path_6251" data-name="Path 6251" d="M105.355,107.921l.374-.278a8.92,8.92,0,0,1,10.7,0l.374.278,17.355-12.882V65.282A1.282,1.282,0,0,0,132.876,64H89.282A1.282,1.282,0,0,0,88,65.282V95.038ZM106.9,76.645a5.907,5.907,0,0,1,4.183,1.729,5.926,5.926,0,0,1,10.109,4.2c0,4.532-5.316,9.979-10.109,12.2-4.793-2.222-10.109-7.669-10.109-12.2A5.926,5.926,0,0,1,106.9,76.645Z" transform="translate(-81.589 -53.743)" fill="#4f5158"/>
+    </g>
+    <rect id="Rectangle_132" data-name="Rectangle 132" width="29" height="21" transform="translate(7008.49 14863.184)" fill="#4f5158"/>
+    <path id="Path_6252" data-name="Path 6252" d="M15.447,2.265H7.508v8.051H4.339V2.265h-7.9V-.605h7.9V-8.694H7.508V-.605h7.94Z" transform="translate(7017.269 14871.689)" fill="#fff"/>
+  </g>
+</svg>
